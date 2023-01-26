@@ -1,4 +1,4 @@
-#Just Eat Dummy Application
+# Just Eat Dummy Application
 
 Source code and apk for the dummy android app of 'Just Eat'. While looking at ways to hard block myself from ordering on Just Eat I found the suggestion to create a dummy app.
 
