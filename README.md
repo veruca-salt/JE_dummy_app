@@ -8,4 +8,7 @@ This dummy app stops installation and updates of the actual Just Eat app.
 
 Further, putting this app into a 'Secure Folder' and locking it with a throw away password will deny access and is a pain to reset. 
 
-Then hide the secure folder via adb which hides the dummy app from the list of android apps in settings and prevents uninstallation. 
+Then disable notifications and hide the secure folder via adb which hides the dummy app from the list of android apps in settings and prevents uninstallation. 
+
+  ```pm disable-user --user 0 com.samsung.knox.securefolder```
+  
